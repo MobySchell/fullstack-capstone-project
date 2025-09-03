@@ -39,6 +39,51 @@ function RegisterPage() {
 								onChange={(e) => setFirstName(e.target.value)}
 							/>
 						</div>
+						<div className="mb-4">
+							<label htmlFor="lastName" className="form label">
+								{" "}
+								LastName
+							</label>
+							<br />
+							<input
+								id="lastName"
+								type="text"
+								className="form-control"
+								placeholder="Enter your lastName"
+								value={firstName}
+								onChange={(e) => setLastName(e.target.value)}
+							/>
+						</div>
+						<div className="mb-4">
+							<label htmlFor="email" className="form label">
+								{" "}
+								email
+							</label>
+							<br />
+							<input
+								id="email"
+								type="text"
+								className="form-control"
+								placeholder="Enter your email"
+								value={firstName}
+								onChange={(e) => setEmail(e.target.value)}
+							/>
+						</div>
+						<div className="mb-4">
+							<label htmlFor="password" className="form label">
+								{" "}
+								password
+							</label>
+							<br />
+							<input
+								id="password"
+								type="text"
+								className="form-control"
+								placeholder="Enter your password"
+								value={firstName}
+								onChange={(e) => setFirstName(e.target.value)}
+							/>
+						</div>
 
 						{/* insert code here to create a button that performs the `handleRegister` function on click */}
 						<p className="mt-4 text-center">
