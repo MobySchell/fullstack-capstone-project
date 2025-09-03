@@ -84,6 +84,14 @@ function RegisterPage() {
 								onChange={(e) => setFirstName(e.target.value)}
 							/>
 						</div>
+						<div>
+							<button
+								className="btn btn-primary w-100 mb-3"
+								onClick={handleRegister}
+							>
+								Register
+							</button>
+						</div>
 
 						{/* insert code here to create a button that performs the `handleRegister` function on click */}
 						<p className="mt-4 text-center">
