@@ -50,7 +50,7 @@ function RegisterPage() {
 								type="text"
 								className="form-control"
 								placeholder="Enter your lastName"
-								value={firstName}
+								value={lastName}
 								onChange={(e) => setLastName(e.target.value)}
 							/>
 						</div>
@@ -65,7 +65,7 @@ function RegisterPage() {
 								type="text"
 								className="form-control"
 								placeholder="Enter your email"
-								value={firstName}
+								value={email}
 								onChange={(e) => setEmail(e.target.value)}
 							/>
 						</div>
@@ -80,10 +80,12 @@ function RegisterPage() {
 								type="text"
 								className="form-control"
 								placeholder="Enter your password"
-								value={firstName}
+								value={password}
 								onChange={(e) => setFirstName(e.target.value)}
 							/>
 						</div>
+
+						{/* insert code here to create a button that performs the `handleRegister` function on click */}
 						<div>
 							<button
 								className="btn btn-primary w-100 mb-3"
@@ -93,7 +95,6 @@ function RegisterPage() {
 							</button>
 						</div>
 
-						{/* insert code here to create a button that performs the `handleRegister` function on click */}
 						<p className="mt-4 text-center">
 							Already a member?{" "}
 							<a href="/app/login" className="text-primary">
